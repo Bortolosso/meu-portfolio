@@ -1,0 +1,155 @@
+body {
+    background-color: #ebebe0;
+    margin: 30px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 540;
+    margin: 30px;
+    text-align: center;
+    font-weight: 900;
+}
+
+h2 {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#menu ul {
+    border: 4px solid black;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    background-color: #ededed;
+    box-shadow: 6px 6px 6px #9c9a9a;
+    list-style: none;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 1px 30px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color: #ededed;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 4px solid red;
+}
+
+#menu ul li a:hover {
+    background-color: #ebebe0;
+    color: black;
+    border-bottom: 5px solid #ea0000;
+}
+
+a {
+    background-color: #1a53ff;
+    box-shadow: 0 6px 0 #4d79ff;
+    border-radius: 100px;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 900;
+  }
+  
+a:hover {
+    background-color: #fff;
+}
+  
+a:active {
+    box-shadow: none;
+    top: 5px;
+}
+
+div.exp {
+    position: relative;
+    top: 300px;
+    margin: 30px;
+    text-align: center;
+}
+
+p.esp {
+    line-height: 1.1;
+    margin: 10px;
+    padding: 0px;
+    display: inline-flex;
+    font-style: oblique;
+}
+
+img.eu {
+    position: absolute;
+    top: 300px;
+    left: 880px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: solid 4px black; 
+    box-shadow: 6px 6px 6px #9c9a9a;
+    
+}
+
+img.logocss {
+    position: absolute;
+    width: 70px;
+    height: 80px;
+    top: 820px;
+    left: 1840px;
+}
+
+img.logohtml {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    top: 820px;
+    left: 1760px;
+}
+
+img.logojs {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    top: 819px;
+    left: 1693px;
+}
+
+img.logopython {
+     position: absolute;
+    width: 90px;
+     height: 70px;
+    top: 300px;
+     left: 1790px;
+}
+
+img.logogit {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    top: 300px;
+    left: 120px;
+}
+
+img.logolinkedin {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    top: 300px;
+    left: 30px;
+}
